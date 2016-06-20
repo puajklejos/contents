@@ -1,0 +1,44 @@
+
+.canasta1{
+ 	margin-top: 	4px;
+    height:  30px;
+    width: 120px;
+  font-size:  27px;
+    text-align:  justify;
+
+ 
+      display:inline-block;
+
+
+	border:1px solid #FFFA79;
+
+	background-color:#FFFEBD;
+}
+
+
+#caja1{
+text-align:center;	
+width:100%;
+margin-left:5%;
+z-index: 1;
+}
+#spawn{
+	width:90%;
+	margin-left:5%;
+	height:140px;
+/*	border:1px solid #000;*/
+	
+}
+div{
+      margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}

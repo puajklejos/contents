@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Juego 2</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/stylejuegodrag.css">
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <script src="js/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+
+    <script src="js/juego2_index2.js"></script>
+    <script src="js/juego2_index3.js"></script>
+    <script src="js/juego2_index4.js"></script>
+
+    <script src="jquery-ui.js"></script>
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="jquery-ui.theme.css">
+
+
+</head>
+<body>
+
+
+<div class="pagina">
+<h1> EL TIGRE QUE SE REÍA DE TODOS</h1>
+<!-- INPUTS -->
+
+ <div class="divimput">
+   <div class="ocultar">
+      <input type="button" class="button" value="Haz la prueba" id="començar">
+      <input type="button" class="button" value="¿Quieres volver a verlo?" id="reset" >
+  </div>
+</div>
+
+<div class="block"><img src="imgjuego1/raton.png" height="50" width="80"></div>
+<div class="malamente"><img src="imgjuego1/mal.png" height="50" width="80"></div>
+<div class="bien"><img src="imgjuego1/bien.png" height="50" width="80"></div>
+<script src="js/juego2_index1.js"></script> <!-- No se por que no funciona si esto no está aquí -->
+
+
+
+ <div class="divimput">
+    <div>
+    <h3>¿Quién se burlaba de los animales de la selva?</h3>
+      <div class="boxy">
+        <div class="titulobox"></div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img  src="imgjuego1/cocodrilo.png" onclick="myFunction0()" height="120" width="120">
+            <input id="selection0" type="radio" name="p1" value="1">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/leon.png" onclick="myFunction1()" height="120" width="120">
+            <input id="selection1" type="radio" name="p1" value="2">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/tigre.png"onclick="myFunction2()" height="120" width="120">
+            <input  id="selection2" type="radio" name="p1" value="3">
+          </div>
+        </div>
+      </div>
+</div>
+
+ <div class="divimput">
+      <div>
+      <h3>¿Dónde se quedó encerrado?</h3>
+      <div class="boxy">
+        <div class="titulobox"></div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/cueva.png" onclick="myFunction3()" height="120" width="120">
+            <input id="selection3" type="radio" name="p2" value="1">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/casa.png" onclick="myFunction4()" height="120" width="120">
+            <input  id="selection4" type="radio" name="p2" value="2">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/castillo.png" onclick="myFunction5()" height="120" width="120">
+            <input  id="selection5" type="radio" name="p2" value="3">
+          </div>
+        </div>
+      </div>
+</div>
+
+ <div class="divimput">
+      <div>
+      <h3>¿Quién lo rescató sacando la roca de la entrada? </h3>
+      <div class="boxy">
+        <div class="titulobox"></div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/hipo.png" onclick="myFunction6()" height="120" width="120">
+            <input  id="selection6" type="radio" name="p3" value="1">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/tigre.png" onclick="myFunction7()" height="120" width="120">
+            <input  id="selection7" type="radio" name="p3" value="2">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/elefante.png" onclick="myFunction8()" height="120" width="120">
+            <input  id="selection8" type="radio" name="p3" value="3">
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="premio"> Has acertado<font color="white">_</font>  <font size=><p id="demo"> </p></font><font color="white">_</font>Respuesta/s! </div>
+
+  <div class="divimput">
+  <input type="button" class="button" value="Comprobar" id="comprobar">
+  </div>    
+
+
+      <h2>Relaciona cada animal con su color </h2>
+    <div id="spawn">
+
+      <img class="leon" id="c2" src="imgjuego1/leon.png" height="140" width="175"><!-- Verde  sera leon-->  
+      <img class="cebra" id="m1" src="imgjuego1/cebra.png" height="140" width="175">  <!-- rojo orange-->
+      <img class="cocodrilo" id="l1" src="imgjuego1/cocodrilo.png" height="140" width="175">  <!-- rojo orange-->
+      <img class="elefante" id="d1" src="imgjuego1/elefante.png" height="140" width="175"> <!-- Negro -->
+      <img class="tigre" id="p1" src="imgjuego1/tigre.png" height="140" width="175" > <!-- Azul -->
+    
+
+
+      </div>
+
+  <div id="caja">
+    <div class="canasta" id="naranja"> <img src="imgjuego1/naranjas.png" width="180" height="130"></div>
+    <div class="canasta" id="gris"> <img src="imgjuego1/grises.png" width="180" height="130"></div>
+    <div class="canasta" id="yellow"> <img src="imgjuego1/amarillos.png" width="180" height="130"></div>
+    <div class="canasta" id="azul"> <img src="imgjuego1/verdes.png" width="180" height="130"></div>
+    <div class="canasta" id="blanco"> <img src="imgjuego1/blanco.png" width="180" height="130"></div>
+  </div>
+</div>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Juego 2</title>
+        <link rel="stylesheet" href="css/style.css">
+                <link rel="stylesheet" href="css/stylejuegodrag.css">
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+
+
+           <script src="jquery.js"></script>
+              <script src="js/juego2_index0.js"></script>
+              <script src="js/juego2_index1.js"></script>
+               <script src="js/juego2_index2.js"></script>
+            
+              <script src="js/juego2_index3.js"></script>
+   <script src="jquery-ui.js"></script>
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="jquery-ui.theme.css">
+
+</head>
+<body>
+
+<div class="pagina">
+<h1> CAPERUCITA ROJA</h1>
+
+ <div class="divimput">
+    <div>
+    <h3>¿Qué personaje se comió a Caperucita y a su abuelita?</h3>
+
+      <div class="boxy">
+        <div class="titulobox"></div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img  src="imgjuego1/cazador.png" onclick="myFunction0()" height="120" width="120">
+            <input id="selection0" type="radio" name="p1" value="1">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/lobo.png" onclick="myFunction1()" height="120" width="120">
+            <input id="selection1" type="radio" name="p1" value="2">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/leon.png" onclick="myFunction2()" height="120" width="120">
+            <input id="selection2" type="radio" name="p1" value="3">
+          </div>
+        </div>
+      </div>
+</div>
+
+
+  <h3>¿A quién lleva Caperucita una cestita? Selecciona la imagen y la palabra correcta.</h3>
+      
+ <div class="divimput">
+
+    
+      <div class="boxy">
+        <div class="esquerra">
+           <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/abuela.png" onclick="myFunction3()" height="120" width="120">
+            <input id="selection3" type="radio" name="p2" value="1">
+          </div>
+        </div>
+        <div class="dreta">  
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+           <p class="respuestas" onclick="myFunction4()">A su madre</p>
+            <input  id="selection4" type="radio" name="p1" value="1">
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+ <div class="divimput">
+      <div class="boxy">
+        <div class="esquerra">
+           <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/Hija.png" onclick="myFunction5()" height="120" width="120">
+            <input id="selection5" type="radio" name="p3" value="1">
+          </div>
+        </div>
+        <div class="dreta">  
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+           <p class="respuestas" onclick="myFunction6()" >A su abuelita</p>
+            <input  id="selection6" type="radio" name="p3" value="2">
+          </div>
+        </div>
+    </div>
+</div>
+          <div class="boxy">
+        <div class="esquerra">
+           <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/padre.png" onclick="myFunction7()" height="120" width="120">
+            <input id="selection3" type="radio" name="p4" value="3">
+          </div>
+        </div>
+        <div class="dreta">  
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+           <p class="respuestas"onclick="myFunction7()">A su padre</p>
+            <input  id="selection4" type="radio" name="p4" value="3">
+          </div></div>
+</div>
+
+
+
+<h3> ¿Qué recogió Caperucita para su abuelita en el bosque?</h3>
+<div id="spawn">
+
+      <img class="leon" id="c2" src="imgjuego1/R.png" height="80" width="110"><!-- Verde  sera leon-->  
+      <img class="cebra" id="m1" src="imgjuego1/O.png" height="80" width="110">  <!-- rojo orange-->
+      <img class="cocodrilo" id="l1" src="imgjuego1/L.png" height="80" width="110">  <!-- rojo orange-->
+      <img class="elefante" id="d1" src="imgjuego1/F.png" height="80" width="110"> <!-- Negro -->
+      <img class="tigre" id="p1" src="imgjuego1/E.png" height="80" width="110" > <!-- Azul -->
+       <img class="lola" id="k1" src="imgjuego1/S.png" height="80" width="110" > 
+</div>
+
+  <div id="caja1">
+      <div class="canasta1" id="gris"> </div> <!-- f -->
+        <div class="canasta1" id="blanco"></div> <!-- l -->
+    <div class="canasta1" id="azul"></div> <!-- o -->
+    <div class="canasta1" id="yellow"></div> <!-- r -->
+    <div class="canasta1" id="naranja"></div> <!-- E -->
+        <div class="canasta1" id="lola"></div> <!-- s -->
+  </div>
+
+
+    
+</div>
+
+<div class="premio"> Has acertado<font color="white">_</font>  <font size=><p id="demo"> </p></font><font color="white">_</font>Respuesta/s! </div>
+
+ <div class="divimput">
+ <div class="boxy">
+  <input type="button" class="button" value="Comprobar" id="comprobar">
+  </div>    
+</div>
+  </body>
+</html>

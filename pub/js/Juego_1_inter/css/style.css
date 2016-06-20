@@ -1,0 +1,199 @@
+body{
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.boxy{
+      height: 142px;
+      width: 100%;
+/*      background-color:#D5D5D5;*/
+      display:flex;
+      /*border:1px solid black;*/
+     justify-content: center;
+    }
+    .titulobox{
+      /*background-color: white;*/
+      font-size: 20px;
+      /*width: 100%;*/
+      display:;
+    }
+
+    .boxpreguntas{
+      padding: 3px;
+      height: 130px;
+      width: 130px;
+
+      /*background-color: red;*/
+    /*  border:1px solid black;*/
+      margin-left: 30px;
+          text-align:center;
+    }
+    .boxpreguntas img{
+      margin-top: 5px;
+    }
+    .boxinput{
+
+  /*  border:1px solid black;*/
+    }
+    .comprension{
+      width: 100%;
+/*      height: 300px;*/
+
+      background-color: #D1D1D1;
+      display: flex;
+
+    }
+    .comprension1{
+      color:black;
+      font-size: 25px;
+      margin: 5px;
+/*      background-color: #7C7C7C;*/
+      justify-content:flex-end;
+      align-items: center;
+    }
+  .block{
+    position: absolute;
+    z-index:1;
+    left:-100px;
+    top: 320px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px;
+  }
+  .bien{
+    position: relative;
+    z-index:1;
+    left:-300px;
+    top: 100px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px;
+  }
+.malamente{
+    position: relative;
+    z-index:1;
+    left:-200px;
+    top: 100px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px;
+  }
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.pagina{
+/*  background-color: #D6D9FF;*/
+
+}
+.divimput{
+  width: 100%;
+  display:flex;
+      -webkit-align-content: center;
+    align-content: center;
+  justify-content: center;
+}
+
+.button{
+  width: 220px;
+  height: 50px;
+  margin:10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+align-items: center;
+align-content: center;
+
+}
+.button:hover {
+ background: rgba(0,0,0,0);
+ color: #3a7999;
+ box-shadow: inset 0 0 0 3px #3a7999;
+
+}
+
+input{
+      display: none;
+
+}
+.ocultar{
+            display: none;
+}
+
+.boxpreguntas.red-cell {
+    background:#FFF17D;
+}
+
+ul{
+display:inline-block;
+list-style:none
+}
+.boxpreguntas.red-cell {
+    background:#FFF17D;
+}
+
+
+.frase{
+  display:flex;
+      -webkit-align-content: center;
+    align-content: center;
+  justify-content: center;
+    height:;
+  font-size:  23px;
+    text-align:  justify;
+   align-content  :  center;
+
+      display:inline-block;
+}
+.premio{
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  display:flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.demo{
+  font-size: 25px;
+  color:#3EFE59;
+}
+
+/**************************/
+
+h1, h2 ,h3{
+  text-align: center;
+  font-weight: normal;
+}
+h1 { font-size: 40px; margin: 0 0 10px 0; }
+h2 { font-size: 30px; margin: 0 0 10px 0; }
+h3 { 
+  display:block  ;
+font-weight: bold }
+p, pre { margin: 0 0 15px 0; }
+
+
+
+@media only screen and (max-width: 668px) {
+h1, h2 {
+  font-weight: normal;
+}
+h1 { font-size: 30px; margin: 0 0 10px 0; }
+h2 { font-size: 25px; margin: 0 0 10px 0; }
+p, pre { margin: 0 0 15px 0; }
+
+
+.ocultar{
+      display: none;
+}
+}

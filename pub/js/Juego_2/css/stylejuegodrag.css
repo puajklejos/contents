@@ -1,0 +1,43 @@
+.canasta{
+	width:180px;
+	height:130px;
+	
+	border:2px solid white;
+	justify-content: center;
+	display:flex;
+	border:1px solid #000;
+
+}
+#naranja{
+	background-image: url("imgjuego1/naranjas.png");
+}
+#gris{
+	background-image: url("imgjuego1/grises.png");
+}
+#yellow{ 
+	background-image: url("imgjuego1/amarillos.png");
+}
+#azul{
+ 	background-image: url("imgjuego1/blanco.png");
+}
+#blanco{
+	background-image: url("imgjuego1/verdes.png");
+}
+
+#caja{
+text-align:center;	
+width:100%;
+margin-left:5%;
+display:flex;
+justify-content: center;
+	
+}
+#spawn{
+text-align:center;	
+width:100%;
+margin-left:5%;
+display:flex;
+z-index: -1;
+justify-content: center;
+	
+}

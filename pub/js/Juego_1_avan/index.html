@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Juego 1</title>
+        <link rel="stylesheet" href="css/style.css">
+           <script src="jquery.js"></script>
+              <script src="js/juego1_index0.js"></script>
+              <script src="js/juego1_index1.js"></script>
+            
+              <script src="js/juego1_index3.js"></script>
+   <script src="jquery-ui.js"></script>
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="jquery-ui.theme.css">
+
+</head>
+<body>
+
+
+<div class="pagina">
+<h1>BRUNO EL ELEFANTE QUE NO RESPETABA A NADIE </h1>
+<div class="">
+ <div class="divimput">
+    <div>
+    <h3>¿QUIÉN ES BRUNO?</h3>
+
+
+  <ul id="nav-one" class="nav">
+       <li>
+          <div class="boxpreguntas"  onclick="myFunctionx(this)" >
+            <img  src="imgjuego1/crias.png" onclick="myFunction0()" height="120" width="120">
+            <audio id="beep-one"  preload="auto" >
+                <source src="sonido/mal.mp3"></source>
+            </audio>
+            <input id="selection0" type="radio" name="p1" value="1">
+          </div>
+      </li>
+  </ul>
+
+
+
+  <ul id="nav-two" class="nav">
+       <li>
+          <div class="boxpreguntas"  onclick="myFunctionx(this)" >
+            <img  src="imgjuego1/elefante.png" onclick="myFunction1()" height="120" width="120">
+            <audio id="beep-two"  preload="auto">
+                <source src="sonido/good.mp3"></source>
+            </audio>
+            <input id="selection1" type="radio" name="p1" value="2">
+          </div>
+      </li>
+  </ul>
+
+
+
+    <ul id="nav-three" class="nav">
+       <li>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img  src="imgjuego1/mofeta.png" onclick="myFunction2()" height="120" width="120">
+            <audio id="beep-three"  preload="auto">
+                <source src="sonido/mal.mp3"></source>
+            </audio>
+            <input id="selection2" type="radio" name="p1" value="3">
+          </div>
+      </li>
+  </ul>
+
+
+  <ul id="nav-four" class="nav">
+       <li>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img  src="imgjuego1/monito.png" onclick="myFunction3()" height="120" width="120">
+            <audio id="beep-four"  preload="auto">
+                <source src="sonido/mal.mp3"></source>
+            </audio>
+            <input id="selection3" type="radio" name="p1" value="4">
+          </div>
+      </li>
+  </ul
+
+
+
+
+<br>
+
+  <ul id="nav-five" class="nav">
+       <li>
+          <div class="boxpreguntas"  onclick="myFunctionx(this)" >
+            <img  src="imgjuego1/tigre.png" onclick="myFunction4()" height="120" width="120">
+            <audio id="beep-five"  preload="auto">
+                <source src="sonido/mal.mp3"></source>
+            </audio>
+            <input id="selection4" type="radio" name="p1" value="5">
+          </div>
+      </li>
+  </ul>
+
+
+
+
+
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+      <script src="js/sonido.js"></script>
+     
+
+<div class="premio"> Has acertado<font color="white">_</font>  <font size=><p id="demo"> </p></font><font color="white">_</font>Respuesta/s! </div>
+
+
+ <div class="divimput">
+ <div class="boxy">
+  <input type="button" class="button" value="Comprobar" id="comprobar">
+  </div>    
+</div>
+</body>
+</html>

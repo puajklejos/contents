@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Joc Cel Català</title>
+        <link rel="stylesheet" href="css/style.css">
+            <script src="jquery.js"></script>
+
+            <script src="js/juego1_index0.js"></script>
+            <script src="js/juego1_index1.js"></script>
+            <script src="js/juego1_index2.js"></script>
+
+   <script src="jquery-ui.js"></script>  
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="jquery-ui.theme.css">
+
+</head>
+<body>
+
+
+<div class="pagina">
+<h1>El NÚVOL PERDUT</h1>
+    <h2>Resol les preguntes següents relacionades amb el conte:</h2>
+
+
+ <div class="divimput">
+    <div>
+    
+
+   <h3>A- Què hauria fet l'Elisenda si hagués sortit el sol?</h3>
+      <div class="boxy">
+
+        <div class="titulobox"></div>
+
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img  src="imgjuego1/camp.jpg" onclick="myFunction0()" height="120" width="120">
+            <p> Anar al camp </p>
+            <input id="selection0" type="radio" name="p1" value="1">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/platja.jpg" onclick="myFunction1()" height="120" width="120">
+            <p> Anar a la Platja </p>
+            <input id="selection1" type="radio" name="p1" value="2">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/bolets.jpg"onclick="myFunction2()" height="120" width="120">
+            <p> Anar a collir bolets </p>
+            <input  id="selection2" type="radio" name="p1" value="3">
+          </div>
+        </div>
+      </div>
+</div>
+
+ <div class="divimput">
+      <div>
+      <h3>B- Què van decidir fer per no avorrir-se? </h3>
+      <div class="boxy">
+        <div class="titulobox"></div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/teatre.gif" onclick="myFunction3()" height="120" width="120">
+            <p>Fer una obra de teatre</p>
+            <input id="selection3" type="radio" name="p2" value="1">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/dibuixar.jpg" onclick="myFunction4()" height="120" width="120">
+            <p>Dibuixar</p>
+            <input  id="selection4" type="radio" name="p2" value="3">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/amagar.jpg" onclick="myFunction5()" height="120" width="120">
+            <p>Jugar a fet i amagar</p>
+            <input  id="selection5" type="radio" name="p2" value="2">
+          </div>
+        </div>
+      </div>
+</div>
+
+ <div class="divimput">
+      <div>
+      <h3>C- Qui volia ser la princesa?</h3>
+      <div class="boxy">
+        <div class="titulobox"></div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/gisela.png" onclick="myFunction6()" height="120" width="120">
+            <p>La Gisela</p>
+            <input  id="selection6" type="radio" name="p3" value="1">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/elisenda.jpg" onclick="myFunction7()" height="120" width="120">
+            <p>L'Elisenda</p>
+            <input  id="selection7" type="radio" name="p3" value="2">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/nenes.jpg" onclick="myFunction8()" height="120" width="120">
+            <p>Totes les nenes</p>
+            <input  id="selection8" type="radio" name="p3" value="3">
+          </div>
+        </div>
+      </div>
+</div>
+
+
+</div>
+
+<div class="premio"> Has acertat<font color="white">_</font>  <font size=><p id="demo"> </p></font><font color="white">_</font>Resposta/es! </div>
+
+  <div class="divimput">
+  <input type="button" class="button" value="Comprobar" id="comprobar">
+  </div>    
+</div>
+  </body>
+</html>

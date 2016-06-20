@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Juego 1</title>
+        <link rel="stylesheet" href="css/style.css">
+            <script src="jquery.js"></script>
+
+            <script src="js/juego1_index0.js"></script>
+            <script src="js/juego1_index1.js"></script>
+            <script src="js/juego1_index2.js"></script>
+
+   <script src="jquery-ui.js"></script>  
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="jquery-ui.theme.css">
+
+</head>
+<body>
+
+
+<div class="pagina">
+<h1>PIPO ENCUENTRA UN AMIGO</h1>
+
+ <div class="divimput">
+   <div class="ocultar">
+      <input type="button" class="button" value="Haz la prueba" id="començar">
+      <input type="button" class="button" value="¿Quieres volver a verlo?" id="reset" >
+  </div>
+</div>
+
+<div class="block"><img src="imgjuego1/raton.png" height="50" width="80"></div>
+<div class="malamente"><img src="imgjuego1/mal.png" height="50" width="80"></div>
+<div class="bien"><img src="imgjuego1/bien.png" height="50" width="80"></div>
+<script src="js/juego1_index3.js"></script> <!-- No se por que no funciona si esto no está aquí -->
+
+
+
+ <div class="divimput">
+    <div>
+    <h3>Pipo era...</h3>
+      <div class="boxy">
+        <div class="titulobox"></div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img  src="imgjuego1/nen.png" onclick="myFunction0()" height="120" width="120">
+            <input id="selection0" type="radio" name="p1" value="1">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/perro.png" onclick="myFunction1()" height="120" width="120">
+            <input id="selection1" type="radio" name="p1" value="2">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/campesino.png"onclick="myFunction2()" height="120" width="120">
+            <input  id="selection2" type="radio" name="p1" value="3">
+          </div>
+        </div>
+      </div>
+</div>
+
+ <div class="divimput">
+      <div>
+      <h3>Cuando Pipo vivía en la calle comía...</h3>
+      <div class="boxy">
+        <div class="titulobox"></div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/basura.png" onclick="myFunction3()" height="120" width="120">
+            <input id="selection3" type="radio" name="p2" value="1">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/pizza.png" onclick="myFunction4()" height="120" width="120">
+            <input  id="selection4" type="radio" name="p2" value="2">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/comedero.png" onclick="myFunction5()" height="120" width="120">
+            <input  id="selection5" type="radio" name="p2" value="3">
+          </div>
+        </div>
+      </div>
+</div>
+
+ <div class="divimput">
+      <div>
+      <h3>Pablito llevó a su amigo Pipo a vivir a...</h3>
+      <div class="boxy">
+        <div class="titulobox"></div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/playa.png" onclick="myFunction6()" height="120" width="120">
+            <input  id="selection6" type="radio" name="p3" value="1">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/ciudad.png" onclick="myFunction7()" height="120" width="120">
+            <input  id="selection7" type="radio" name="p3" value="2">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/campo.png" onclick="myFunction8()" height="120" width="120">
+            <input  id="selection8" type="radio" name="p3" value="3">
+          </div>
+        </div>
+      </div>
+</div>
+ <div class="divimput">
+      <div>
+      <h3>Ahora Pipo duerme en una...</h3>
+      <div class="boxy">
+        <div class="titulobox"></div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/cama.png" onclick="myFunction9()" height="120" width="120">
+            <input  id="selection9" type="radio" name="p4" value="1">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/casita.png" onclick="myFunction10()" height="120" width="120">
+            <input  id="selection10" type="radio" name="p4" value="2">
+          </div>
+          <div class="boxpreguntas" onclick="myFunctionx(this)" >
+            <img src="imgjuego1/caja.png" onclick="myFunction11()" height="120" width="120">
+            <input  id="selection11" type="radio" name="p4" value="3">
+        </div>
+      </div>
+</div>
+
+
+
+
+</div>
+
+<div class="premio"> Has acertado<font color="white">_</font>  <font size=><p id="demo"> </p></font><font color="white">_</font>Respuesta/s! </div>
+
+
+  <div class="divimput">
+  <input type="button" onclick="myFunction()" class="button" value="Comprobar" id="comprobar">
+  </div>    
+</div>
+  </body>
+</html>

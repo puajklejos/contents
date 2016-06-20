@@ -1,0 +1,14 @@
+{
+	"dbconf":{
+		"driver":"mysql",
+		"dbname":"contents",
+		"dbhost":"localhost",
+		"dbuser":"adminUX82dVT",
+		"dbpass":"_7I-irSfKfSj"
+	},
+	"app":{
+		"title":"Contents",
+		"version":"0.1"
+	}
+
+}
